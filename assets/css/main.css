@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Karla', sans-serif;
+}
+
+html {
+	padding: 25px;
+	background: #f0f0f0;
+}
+
+main {
+	background: #fff;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+@media screen and (min-width: 779px) {
+	main {
+		max-width: 600px;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	main {
+		max-width: 800px;
+		padding: 50px;
+	}
+}
+
+@media screen and (min-width: 1679px) {
+	main {
+		max-width: 1000px;
+	}
+}
